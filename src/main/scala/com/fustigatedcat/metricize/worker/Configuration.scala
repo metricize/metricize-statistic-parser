@@ -2,9 +2,6 @@ package com.fustigatedcat.metricize.worker
 
 import com.typesafe.config.ConfigFactory
 
-/**
- * Created by jbackfield on 3/24/15.
- */
 object Configuration {
 
   val config = ConfigFactory.load()

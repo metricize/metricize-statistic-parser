@@ -8,4 +8,5 @@ object ActorSystems {
   val generalActorSystem = ActorSystem("generalActorSystem")
 
   val edgeQueue = generalActorSystem.actorOf(Props[EdgeQueue])
+
 }
