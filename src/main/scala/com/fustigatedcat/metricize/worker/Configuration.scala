@@ -15,6 +15,12 @@ object Configuration {
       val username = config.getString("database.core.username")
       val password = config.getString("database.core.password")
     }
+    object customer {
+      object jdbc {
+        val template = config.getString("database.customer.jdbc.template")
+        val driver = config.getString("database.customer.jdbc.driver")
+      }
+    }
   }
 
   object queue {
